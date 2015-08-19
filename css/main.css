@@ -1,5 +1,6 @@
 * {
   font-family: helvetica;
+  margin: 0 auto;
 }
 
 header {
@@ -12,33 +13,33 @@ header {
 
 nav {
   width: 540px;
-  float: right;
-  border: dotted 1px black;
+  clear:both;
+  border: solid 1px black;
+  display: inline;
 
 }
 
 a {
   color: #378B2E;
+  text-decoration: none;
 
 }
 
 a:hover {
   color:#000;
+  text-decoration: underline;
 }
 
-#footer {
+section#footer {
   color: #378B2E;
   clear:both;
 }
 
-section#header-nav {
+section.wrapper {
   width: 1080px;
 }
 
-div#header {
-  
-}
 
-div#nav{
-  
+p {
+  clear:both;
 }
