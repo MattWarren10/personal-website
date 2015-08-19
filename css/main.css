@@ -1,0 +1,17 @@
+a {
+  text-decoration: none;
+}
+
+a#logo{
+  text-align: center;
+  margin: 0;
+
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #00CD58;
+  padding: 10px;
+}
+
