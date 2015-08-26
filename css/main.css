@@ -1,1 +1,29 @@
 @import 'normalize.css';
+
+
+/*============COLORS============*/
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover, a:visited {
+  text-decoration: underline;
+}
+
+header {
+  background: #940000;
+}
+
+#gallery {
+  background: #222;
+}
+
+#about {
+  background: #fff;
+}
+
+#contact {
+  background: #474747;
+}
