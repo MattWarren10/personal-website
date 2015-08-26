@@ -2,28 +2,51 @@
 
 
 /*============COLORS============*/
+body {
+  color: #fff;
+}
 
-a {
+p {
+  color: #000;
+}
+
+a, a:visited {
   color: #fff;
   text-decoration: none;
 }
 
-a:hover, a:visited {
-  text-decoration: underline;
+a:hover {
+  color: #ccc;
 }
 
 header {
   background: #940000;
 }
 
-#gallery {
+#projects {
   background: #222;
+}
+
+#projects li a p {
+  color: #aaa;
 }
 
 #about {
   background: #fff;
+  color: #000;
 }
 
 #contact {
   background: #474747;
 }
+
+#contact li a {
+  color: #ccc;
+}
+
+h4 {
+  color: #000;
+}
+
+
+
