@@ -34,7 +34,8 @@ nav ul li a {
 /*============PROJECT LIST============*/
 
 #wrapper {
-  width: 100%
+  width: 100%;
+  margin: 0 auto;
 }
 
 #projects {
@@ -60,23 +61,34 @@ nav ul li a {
   color: #000;
 }
 
+
+
+/*============SOCIAL MEDIA LINKS============*/
+
 #contact {
   background: #474747;
+
 }
 
 #contact ul {
   list-style: none;
+  padding: 0;
+
 }
 
-#contact li {
+#contact ul li {
   display: inline-block;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 7.8%;
+
   
 }
 
 #contact img {
-  max-height: 30%;
-  max-width: 30%;
-  margin: 0;
+  max-height: 24px;
+  max-width: 24px;
+  
 
 }
 
@@ -87,9 +99,15 @@ nav ul li a {
 .social-icon:hover {
   border: 2px solid #ccc;
   border-radius: 10%;
-  max-height: 1.5em;
-  max-width: 1.5em;
+}
 
+
+
+/*============FOOTER============*/
+
+footer {
+  text-align: center;
+  color:#777;
 }
 
 /*============COLORS============*/
