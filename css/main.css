@@ -1,5 +1,96 @@
 @import 'normalize.css';
 
+/*============GENERAL============*/
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  color: #000;
+}
+
+
+/*============HEADER============*/
+header {
+  list-style: none;
+}
+
+nav ul {
+  list-style: none;
+  display: inline;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  padding: 1.25%;
+}
+
+/*============PROJECT LIST============*/
+
+#wrapper {
+  width: 100%
+}
+
+#projects {
+  background: #222;
+  list-style: none;
+  margin: 0;
+}
+
+#projects li {
+  display: inline-block;
+}
+
+#projects p {
+  color: #aaa;
+}
+
+#projects p:hover {
+  text-decoration: underline;
+}
+
+#about {
+  background: #fff;
+  color: #000;
+}
+
+#contact {
+  background: #474747;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact li {
+  display: inline-block;
+  
+}
+
+#contact img {
+  max-height: 30%;
+  max-width: 30%;
+  margin: 5%;
+
+}
+
+.social-icon {
+  border: 2px solid #474747;
+}
+
+.social-icon:hover {
+  border: 2px solid #ccc;
+  border-radius: 10%;
+  max-height: 1.5em;
+  max-width: 1.5em;
+
+}
 
 /*============COLORS============*/
 body {
@@ -22,31 +113,4 @@ a:hover {
 header {
   background: #940000;
 }
-
-#projects {
-  background: #222;
-}
-
-#projects li a p {
-  color: #aaa;
-}
-
-#about {
-  background: #fff;
-  color: #000;
-}
-
-#contact {
-  background: #474747;
-}
-
-#contact li a {
-  color: #ccc;
-}
-
-h4 {
-  color: #000;
-}
-
-
 
