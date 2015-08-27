@@ -34,7 +34,7 @@ img {
 /*============HEADER============*/
 header {
   float: left;
-  margin: 0;
+  margin-bottom: 20px;
   padding: 5px 0 0 0;
   width: 100%;
   
@@ -69,7 +69,6 @@ header {
 nav {
   text-align: left;
   display: block;
-  
   clear:left;
 
 
@@ -79,6 +78,7 @@ nav ul {
   list-style: none;
   display: inline;
   padding: 0;
+
   
 }
 
@@ -92,20 +92,21 @@ nav ul li a {
 
 /*============PROJECT LIST============*/
 
+.project-header {
+  padding: 0 0 5% 5%;
+}
+
 #projects {
   list-style: none;
   margin: 0;
-  padding: 5% 0 0 5%;
-}
-
-#projects h3 {
-
+  padding: 0;
 }
 
 #projects li {
   width: 35%;
   display: inline-block;
-  margin: 5% 2.5% 0;
+  margin: 0;
+  padding: 0 7.5%;
 }
 
 #projects li img {
@@ -114,6 +115,7 @@ nav ul li a {
 
 #projects li:nth-child(2n) {
   clear: both;
+  float: right;
 }
 
 #projects p:hover {
@@ -166,7 +168,7 @@ nav ul li a {
 
 #contact ul li {
   display: inline-block;
-  max-width: 32.5%;
+  max-width: 24.3333333%;
   padding: 0;
   margin: 0;
   
@@ -175,7 +177,7 @@ nav ul li a {
 #contact img {
   max-height: 20%;
   max-width: 20%;
-  margin: 10% 25%;
+  margin: 12% 25%;
   padding: 10%;
   
 
@@ -226,6 +228,12 @@ a:visited {
 
 a:hover {
   color: #fff;
+}
+
+.project-header {
+  background-color: #dfdfdf;
+  color: #474747;
+
 }
 
 #projects {
