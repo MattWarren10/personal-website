@@ -4,7 +4,30 @@
 
   #contact ul li {
   display: inline-block;
-  max-width: 24.6%;
+  max-width: 24.5%;
+  padding: 0;
+  margin: 0;
+    
+  }
+
+  #contact img {
+    max-height: 20%;
+    max-width: 35%;
+    margin: 12% 30%;
+    padding: 10%;
+    
+
+  }
+
+}
+
+@media screen and (min-width: 1160px) {
+
+  /*============CENTERING #CONTACT============*/
+
+  #contact ul li {
+  display: inline-block;
+  max-width: 24.65%;
   padding: 0;
   margin: 0;
     
@@ -18,5 +41,6 @@
     
 
   }
+
 
 }
