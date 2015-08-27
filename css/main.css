@@ -113,7 +113,7 @@ nav ul li a {
 }
 
 #projects li:nth-child(2n) {
-  clear: left;
+  clear: both;
 }
 
 #projects p:hover {
@@ -126,7 +126,7 @@ nav ul li a {
 
 #about {
   width: 100%;
-  height: 100%;
+  height: 500px;
   margin: 0 auto;
 }
 
@@ -140,7 +140,7 @@ nav ul li a {
 
 .profile-photo {
   margin: 10px 30px 0 5%;
-  max-width: 50%;
+  max-width: 25%;
   padding: 0;
   border-radius: 100%;
   float: left;
