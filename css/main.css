@@ -6,6 +6,9 @@
 body {
   font-family: 'Biryani', verdana, helvetica, arial, sans-serif;
   font-weight: 200;
+  padding: 0;
+  margin: 0;
+  
 }
 
 h1 {
@@ -17,47 +20,66 @@ h1 {
 
 h3 {
   margin: 0;
-  padding: 20px;
+  padding: 0;
   font-family: 'Poiret One', sans-serif;
   font-weight: 200;
+
 }
 
-h4 {
-  color: #000;
+img {
+  max-width: 100%;
 }
 
 
 /*============HEADER============*/
 header {
+  float: left;
+  margin: 0;
+  padding: 5px 0 0 0;
+  width: 100%;
   
 }
 
 #logo {
-  text-align: center;
-  margin: 10px;
-  padding: 0;
-  display: inline-block;
+  width: 65%;
+  text-align: left;
+  margin: 0;
+  padding-left: 2.5%;
+  line-height: 1.5em;
   float: left;
+
 }
 
 .sub-header {
-  text-align: center;
-  margin: 0;
-  padding: 20;
+  width: 20%;
+  text-align: right;
+  margin-top: .9em;
+  padding-left: 2.5%;
   font-family: 'Biryani', verdana, helvetica, arial, sans-serif;
   font-weight: 200;
+  line-height: 1em;
   float: left;
+  
+}
 
 
 
 /*============NAVIGATION============*/
+
+nav {
+  text-align: left;
+  display: block;
+  
+  clear:left;
+
 
 }
 
 nav ul {
   list-style: none;
   display: inline;
-  margin: 0 auto;
+  padding: 0;
+  
 }
 
 nav ul li {
@@ -65,27 +87,37 @@ nav ul li {
 }
 
 nav ul li a {
-  padding: 1.25%;
+  padding: 15px 2.5%;
 }
 
 /*============PROJECT LIST============*/
 
 #projects {
-  background: #222;
   list-style: none;
   margin: 0;
+  padding: 5% 0 0 5%;
+}
+
+#projects h3 {
+
 }
 
 #projects li {
+  width: 35%;
   display: inline-block;
+  margin: 5% 2.5% 0;
 }
 
-#projects p {
-  color: #aaa;
+#projects li img {
+  max-width: 100%;
+}
+
+#projects li:nth-child(2n) {
+  clear: left;
 }
 
 #projects p:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
@@ -93,26 +125,36 @@ nav ul li a {
 /*============ABOUT============*/
 
 #about {
-  background: #fff;
-  color: #000;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
+#about h3 {
+  padding: 5% 0 0 5%;
+}
+
+#about h4, #about p {
+  padding: 0 0 0 5%;
+}
+
 .profile-photo {
-  margin: 10px 30px 20px 0;
-  padding: 0;
+  margin: 10px 30px 20px 5%;
+  max-width: 50%;
+  max-height: 50%;
+  padding: 5%;
   border-radius: 100%;
   float: left;
-
 }
 
 
 /*============SOCIAL MEDIA LINKS============*/
 
 #contact {
-  background: #474747;
   clear: left;
+}
+
+#contact h3 {
+  padding: 5% 0 0 5%;
 }
 
 #contact ul {
@@ -141,6 +183,7 @@ nav ul li a {
 
 .social-icon {
   border: 2px solid #474747;
+  border-radius: 15%;
 }
 
 .social-icon:hover {
@@ -154,28 +197,61 @@ nav ul li a {
 
 footer {
   text-align: center;
-  color:#777;
 }
 
 /*============COLORS============*/
 body {
   color: #fff;
+  
 }
 
 header {
-  background: #940000;
+  background: #222;
+  color: #dfdfdf;
 }
 
-p {
+h4 {
   color: #000;
 }
 
-a, a:visited {
-  color: #fff;
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ccc;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ccc;
+  color: #fff;
+}
+
+#projects {
+  background: #dfdfdf;
+  color:#474747;
+}
+
+#projects a {
+  color: #474747;
+}
+
+#projects a:hover {
+  color: #777;
+}
+
+#about {
+  background: #474747;
+  color: #dfdfdf;
+}
+
+#contact {
+  background: #222;
+  color:#ccc;
+}
+
+footer {
+  color:#777;
 }
 
