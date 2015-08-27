@@ -1,10 +1,25 @@
 @import 'normalize.css';
+@import url(https://fonts.googleapis.com/css?family=Biryani:200,900|Poiret+One);
 
 /*============GENERAL============*/
+
+body {
+  font-family: 'Biryani', verdana, helvetica, arial, sans-serif;
+  font-weight: 200;
+}
 
 h1 {
   margin: 0;
   padding: 0;
+  font-family: 'Biryani', verdana, helvetica, arial, sans-serif;
+  font-weight: 900;
+}
+
+h3 {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 200;
 }
 
 h4 {
@@ -14,13 +29,35 @@ h4 {
 
 /*============HEADER============*/
 header {
-  list-style: none;
+  
+}
+
+#logo {
+  text-align: center;
+  margin: 10px;
+  padding: 0;
+  display: inline-block;
+  float: left;
+}
+
+.sub-header {
+  text-align: center;
+  margin: 0;
+  padding: 20;
+  font-family: 'Biryani', verdana, helvetica, arial, sans-serif;
+  font-weight: 200;
+  float: left;
+
+
+
+/*============NAVIGATION============*/
+
 }
 
 nav ul {
   list-style: none;
   display: inline;
-  margin: 0;
+  margin: 0 auto;
 }
 
 nav ul li {
@@ -32,11 +69,6 @@ nav ul li a {
 }
 
 /*============PROJECT LIST============*/
-
-#wrapper {
-  width: 100%;
-  margin: 0 auto;
-}
 
 #projects {
   background: #222;
@@ -56,18 +88,31 @@ nav ul li a {
   text-decoration: underline;
 }
 
+
+
+/*============ABOUT============*/
+
 #about {
   background: #fff;
   color: #000;
+  width: 90%;
+  margin: 0 auto;
 }
 
+.profile-photo {
+  margin: 10px 30px 20px 0;
+  padding: 0;
+  border-radius: 100%;
+  float: left;
+
+}
 
 
 /*============SOCIAL MEDIA LINKS============*/
 
 #contact {
   background: #474747;
-
+  clear: left;
 }
 
 #contact ul {
@@ -82,7 +127,6 @@ nav ul li a {
   max-width: 32.5%;
   padding: 0;
   margin: 0;
-
   
 }
 
@@ -118,6 +162,10 @@ body {
   color: #fff;
 }
 
+header {
+  background: #940000;
+}
+
 p {
   color: #000;
 }
@@ -129,9 +177,5 @@ a, a:visited {
 
 a:hover {
   color: #ccc;
-}
-
-header {
-  background: #940000;
 }
 
