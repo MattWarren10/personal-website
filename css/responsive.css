@@ -1,69 +1,49 @@
-@media screen and (min-width: 400px) {
+/* ----------- iPhone 4 and 4S ----------- */
 
-  /*============CENTERING #CONTACT============*/
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
 
-  #contact ul li {
-  display: inline-block;
-  max-width: 24.3333%;
+  .constraint {
+  width: 100%;
+  margin: 0 auto;
   padding: 0;
-  margin: 0;
-    
   }
 
-  #contact img {
-    max-height: 20%;
-    max-width: 20%;
-    margin: 12% 30%;
-    padding: 10%;
-    
-
+  #contact .constraint ul li {
+  display: inline-block;
+  max-width: 25%;
+  padding: 0;
+  margin: 0 8%;
+  
   }
-
 }
+
+
+@media screen and (min-width: 320px) {
+
+  .constraint {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+  /*============CENTERING .CONSTRAINT============*/
+
 
 @media screen and (min-width: 660px) {
 
+}
+
   /*============CENTERING #CONTACT============*/
 
-  #contact ul li {
-  display: inline-block;
-  max-width: 24.5%;
-  padding: 0;
-  margin: 0;
-    
-  }
-
-  #contact img {
-    max-height: 20%;
-    max-width: 35%;
-    margin: 12% 30%;
-    padding: 10%;
-    
-
-  }
-
-}
 
 @media screen and (min-width: 1160px) {
 
   /*============CENTERING #CONTACT============*/
-
-  #contact ul li {
-  display: inline-block;
-  max-width: 24.65%;
-  padding: 0;
-  margin: 0;
-    
-  }
-
-  #contact img {
-    max-height: 20%;
-    max-width: 35%;
-    margin: 12% 25%;
-    padding: 10%;
-    
-
-  }
 
 
 }
