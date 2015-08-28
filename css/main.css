@@ -128,7 +128,7 @@ nav ul li a {
 #projects li:nth-child(2),
 li:nth-child(4),
 li:nth-child(6) {
-  clear: both;
+  clear: right;
   float: right;
 }
 
@@ -153,13 +153,14 @@ li:nth-child(6) {
 
 }
 
-#about h4, #about p {
+#about h4 {
   padding: 0 2% 0 5%;
   margin-top: 0;
 }
 
-#about p:nth-child(2) {
-  padding-bottom: 5%;
+#about p {
+  padding: 0 5% 5% 5%;
+  margin: 0;
 }
 
 .profile-photo {
