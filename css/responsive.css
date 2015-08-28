@@ -1,11 +1,10 @@
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+
+
+
+@media screen and (min-device-width: 320px) {
 
   .constraint {
   width: 100%;
@@ -18,17 +17,6 @@
   max-width: 25%;
   padding: 0;
   margin: 0 8%;
-  
-  }
-}
-
-
-@media screen and (min-width: 320px) {
-
-  .constraint {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
 }
 
   /*============CENTERING .CONSTRAINT============*/
