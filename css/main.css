@@ -64,8 +64,8 @@ header {
 .sub-header {
   width: 20%;
   text-align: right;
-  margin-top: .9em;
-  padding-left: 2.5%;
+  margin: .9em 1em 0 0;
+  padding: 0 2.5%;
   font-family: 'Biryani', verdana, helvetica, arial, sans-serif;
   font-weight: 200;
   line-height: 1em;
