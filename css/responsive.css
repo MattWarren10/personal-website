@@ -1,37 +1,23 @@
 /* ----------- iPhone 4 and 4S ----------- */
 
-/* Portrait */
-
-
-
-@media screen and (min-device-width: 320px) {
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
   .constraint {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
+    width: 320px;
+    margin: 0 auto;
+    padding: 0;
   }
 
   #contact .constraint ul li {
-  display: inline-block;
-  max-width: 25%;
-  padding: 0;
-  margin: 0 8%;
-}
-
-  /*============CENTERING .CONSTRAINT============*/
-
-
-@media screen and (min-width: 660px) {
-
-}
-
-  /*============CENTERING #CONTACT============*/
-
-
-@media screen and (min-width: 1160px) {
-
-  /*============CENTERING #CONTACT============*/
-
+    display: inline-block;
+    max-width: 25%;
+    padding: 0;
+    margin: 0 8%;
+    
+  }
 
 }
